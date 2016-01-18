@@ -4,23 +4,17 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	log "github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/gorilla/mux"
-	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/spf13/viper"
-	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/gopkg.in/fsnotify.v1"
-	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/gopkg.in/redis.v3"
 	"math/rand"
 	"net/http"
 	"os"
 	"strconv"
 	"time"
+	log "github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/gorilla/mux"
+	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/github.com/spf13/viper"
+	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/gopkg.in/fsnotify.v1"
+	"github.com/flowg/go_experiences/server/Godeps/_workspace/src/gopkg.in/redis.v3"
 )
-
-/*
- * ToDo
- * 4) Read Docker doc and deal with it
- * 6) Write a readme file
- */
 
 var redisClient *redis.Client
 
