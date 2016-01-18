@@ -1,0 +1,10 @@
+port: 8000
+log_file: smallWorld.log
+token_size: 6
+custom_rand_size: 10000
+
+datastore:
+  host: localhost
+  port: 6379
+  pwd: ""
+  db_name: 0
