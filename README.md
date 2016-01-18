@@ -27,7 +27,7 @@ In your Terminal, type :
 ```
 ```
     go install github.com/flowg/SmallWorld
-``
+```
 
 Now, you should have a bin/ folder at the root of your workspace, at the same level than src/. Inside, you should find the SmallWorld binary.
 
