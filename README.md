@@ -16,10 +16,18 @@ Make sure you have created a Go workspace (a dedicated folder for all your work 
 
 In your Terminal, type :
 
-`cd $GOPATH
-`mkdir src`
-`go get github.com/flowg/SmallWorld`
-`go install github.com/flowg/SmallWorld
+```
+    cd $GOPATH
+```
+```
+    mkdir src
+```
+```
+    go get github.com/flowg/SmallWorld
+```
+```
+    go install github.com/flowg/SmallWorld
+```
 
 Now, you should have a bin/ folder at the root of your workspace, at the same level than src/. Inside, you should find the SmallWorld binary.
 
@@ -27,8 +35,12 @@ Now, you should have a bin/ folder at the root of your workspace, at the same le
 
 Go to the bin/ folder and launch the server. In your Terminal, type :
 
-`cd $GOPATH/bin`
-`./SmallWorld
+```
+    cd $GOPATH/bin
+```
+```
+    ./SmallWorld
+```
 
 ## How to use it ?
 
